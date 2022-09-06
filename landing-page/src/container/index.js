@@ -1,0 +1,6 @@
+export { default as AboutUs} from './aboutus/AboutUs'
+export { default as Cart} from './cart/Cart'
+export { default as Feature} from './feature/Feature'
+export { default as Footer} from './footer/Footer'
+export { default as Header} from './header/Header'
+export { default as Menu} from './menu/Menu'

@@ -1,10 +1,23 @@
 import React from 'react'
+import { AboutUs, Cart, Feature, Footer, Header, Menu } from './container'
+import { Brand, Cta, Features, Food, Navbar } from './components'
 
 const App = () => {
   return (
-    <div>
-      <h1>Hi there</h1>
-      <p>How are you?</p>
+    <div className='App'>
+      <div className='gradient__bg'>
+        <Navbar />
+        <Header />
+      </div>
+      <AboutUs />
+      <Menu />
+      <Cart />
+      <Features />
+      <Feature />
+      <Brand />
+      <Food />
+      <Cta />
+      <Footer />
     </div>
   )
 }
