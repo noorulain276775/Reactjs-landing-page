@@ -1,6 +1,7 @@
 import React from 'react'
-import { AboutUs, Cart, Feature, Footer, Header, Menu } from './container'
-import { Brand, Cta, Features, Food, Navbar } from './components'
+import { AboutUs, Cart, Feature, Footer, Header, Menu } from './container';
+import { Brand, Cta, Features, Food, Navbar } from './components';
+import './App.css';
 
 const App = () => {
   return (

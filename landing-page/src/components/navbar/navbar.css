@@ -1,0 +1,71 @@
+.foody__navbar-links-logo img {
+    width: 220px;
+    height: 220px;
+    margin-bottom: 40px;
+}
+
+.foody__navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 6rem;
+}
+
+.foody__navbar-links {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.foody__navbar-links-logo {
+    margin-right: 2rem;
+
+
+}
+
+.foody__navbar-links-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.foody__navbar-sign {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.foody__navbar-links-container p ,
+.foody__navbar-sign p ,
+.foody__navbar-menu-container p {
+    color: white;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+    margin: 0 2rem;
+    cursor: pointer;
+}
+
+.foody__navbar-sign button,
+.foody__navbar-menu-container button {
+    background-color: #FF4820;
+    color: white;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    border: 0px;
+}
+
+.foody__navbar-sign button:active {
+    background-color: white;
+    color:  #FF4820;
+    transform: translateY(1px);
+  }
+ 
